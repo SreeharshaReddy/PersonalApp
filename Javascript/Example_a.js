@@ -1,6 +1,7 @@
 module.exports={
-hello:function(){
-return hello
-area.function
-}
+  return{
+    area:function(r){
+      return Math.pi;
+  }
+};
 }
