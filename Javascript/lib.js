@@ -1,12 +1,11 @@
-module.exports.abc = {
+module.exports = {
     sqrt: function(x){
-
       return Math.sqrt(x);
     },
-    squar:function (x) {
+    square: function (x) {
         return x * x;
     }
-    // diag:function (x, y) {
-    //     return Math.sqrt(square(x) + square(y));
-    // } ,
+  //  diag:function (x, y) {
+      //  return Math.sqrt(square(x) + square(y));
+  // } ,
 }

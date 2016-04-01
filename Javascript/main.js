@@ -1,4 +1,4 @@
-var square = require('./lib.js');
+var a = require('./lib.js');
 
-console.log(square.squar(16)); // 121
-// console.log(diag(4, 3)); // 5
+console.log(a.square(16)); // 121
+//console.log(a.diag(4, 3)); // 5
