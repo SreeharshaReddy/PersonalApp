@@ -1,12 +1,12 @@
-var sqrt = Math.sqrt;
-    function square(x) {
+module.exports.abc = {
+    sqrt: function(x){
+
+      return Math.sqrt(x);
+    },
+    squar:function (x) {
         return x * x;
     }
-    function diag(x, y) {
-        return sqrt(square(x) + square(y));
-    }
-    module.exports = {
-        sqrt: sqrt,
-        square: square,
-        diag: diag,
-    };
+    // diag:function (x, y) {
+    //     return Math.sqrt(square(x) + square(y));
+    // } ,
+}
